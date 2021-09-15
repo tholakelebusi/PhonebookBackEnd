@@ -4,7 +4,7 @@ import { PhonebookModule } from './phonebook/phonebook.module';
 
 @Module({
 	imports: [
-		MongooseModule.forRoot("mongodb+srv://tholakelebusi:123456@cluster0.blwxz.mongodb.net/Phonebook", { autoCreate: true }),
+		MongooseModule.forRoot("mongodb+srv://cossa:12345@cluster0.krz1i.mongodb.net/Words"),
 		PhonebookModule,
 	],
 	controllers: [],
